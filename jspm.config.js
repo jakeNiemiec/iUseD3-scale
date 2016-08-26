@@ -32,7 +32,30 @@ SystemJS.config({
     "github:*/*.json"
   ],
   map: {
+    "d3-scale": "npm:d3-scale@1.0.3",
     "d3/d3-scale": "github:d3/d3-scale@1.0.3"
   },
-  packages: {}
+  packages: {
+    "npm:d3-scale@1.0.3": {
+      "map": {
+        "d3-format": "npm:d3-format@1.0.2",
+        "d3-interpolate": "npm:d3-interpolate@1.1.1",
+        "d3-time-format": "npm:d3-time-format@2.0.2",
+        "d3-collection": "npm:d3-collection@1.0.1",
+        "d3-color": "npm:d3-color@1.0.1",
+        "d3-time": "npm:d3-time@1.0.2",
+        "d3-array": "npm:d3-array@1.0.1"
+      }
+    },
+    "npm:d3-interpolate@1.1.1": {
+      "map": {
+        "d3-color": "npm:d3-color@1.0.1"
+      }
+    },
+    "npm:d3-time-format@2.0.2": {
+      "map": {
+        "d3-time": "npm:d3-time@1.0.2"
+      }
+    }
+  }
 });

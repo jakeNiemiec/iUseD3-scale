@@ -6,5 +6,49 @@
   "github:d3/d3-scale@1.0.3": {
     "deps": {},
     "peerDeps": {}
+  },
+  "npm:d3-scale@1.0.3": {
+    "deps": {
+      "d3-array": "npm:d3-array@^1.0.0",
+      "d3-collection": "npm:d3-collection@^1.0.0",
+      "d3-color": "npm:d3-color@^1.0.0",
+      "d3-format": "npm:d3-format@^1.0.0",
+      "d3-interpolate": "npm:d3-interpolate@^1.0.0",
+      "d3-time": "npm:d3-time@^1.0.0",
+      "d3-time-format": "npm:d3-time-format@^2.0.0"
+    },
+    "peerDeps": {}
+  },
+  "npm:d3-format@1.0.2": {
+    "deps": {},
+    "peerDeps": {}
+  },
+  "npm:d3-interpolate@1.1.1": {
+    "deps": {
+      "d3-color": "npm:d3-color@^1.0.0"
+    },
+    "peerDeps": {}
+  },
+  "npm:d3-time-format@2.0.2": {
+    "deps": {
+      "d3-time": "npm:d3-time@^1.0.0"
+    },
+    "peerDeps": {}
+  },
+  "npm:d3-collection@1.0.1": {
+    "deps": {},
+    "peerDeps": {}
+  },
+  "npm:d3-color@1.0.1": {
+    "deps": {},
+    "peerDeps": {}
+  },
+  "npm:d3-time@1.0.2": {
+    "deps": {},
+    "peerDeps": {}
+  },
+  "npm:d3-array@1.0.1": {
+    "deps": {},
+    "peerDeps": {}
   }
 }

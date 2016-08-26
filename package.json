@@ -7,6 +7,7 @@
     "name": "iused3-scale",
     "main": "iused3-scale.js",
     "dependencies": {
+      "d3-scale": "npm:d3-scale@^1.0.3",
       "d3/d3-scale": "github:d3/d3-scale@^1.0.3"
     },
     "devDependencies": {
