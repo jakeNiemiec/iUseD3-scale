@@ -1,0 +1,6 @@
+{
+  "npm:systemjs-plugin-babel@0.0.13": {
+    "deps": {},
+    "peerDeps": {}
+  }
+}
