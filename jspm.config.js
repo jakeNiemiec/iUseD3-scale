@@ -1,6 +1,7 @@
 SystemJS.config({
   paths: {
     "npm:": "jspm_packages/npm/",
+    "github:": "jspm_packages/github/",
     "iused3-scale/": "src/"
   },
   browserConfig: {
@@ -27,8 +28,11 @@ SystemJS.config({
 SystemJS.config({
   packageConfigPaths: [
     "npm:@*/*.json",
-    "npm:*.json"
+    "npm:*.json",
+    "github:*/*.json"
   ],
-  map: {},
+  map: {
+    "d3/d3-scale": "github:d3/d3-scale@1.0.3"
+  },
   packages: {}
 });

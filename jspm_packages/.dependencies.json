@@ -2,5 +2,9 @@
   "npm:systemjs-plugin-babel@0.0.13": {
     "deps": {},
     "peerDeps": {}
+  },
+  "github:d3/d3-scale@1.0.3": {
+    "deps": {},
+    "peerDeps": {}
   }
 }
