@@ -1,0 +1,26 @@
+jakeniemiec@Sat  ~/RubymineProjects/iused3-scale   master  jspm i github:d3/d3-scale
+
+warn Running jspm globally, it is advisable to locally install jspm via npm install jspm --save-dev.
+     Updating registry cache...
+ok   Installed d3/d3-scale to github:d3/d3-scale@^1.0.3 (1.0.3)
+     Install tree has no forks.
+
+ok   Install complete.
+
+----------------------------------------------------------------------------------------
+
+jakeniemiec@Sat  ~/RubymineProjects/iused3-scale   master  jspm i npm:d3-scale
+
+warn Running jspm globally, it is advisable to locally install jspm via npm install jspm --save-dev.
+     Updating registry cache...
+ok   Installed npm:d3-format@^1.0.0 (1.0.2)
+ok   Installed npm:d3-interpolate@^1.0.0 (1.1.1)
+ok   Installed npm:d3-collection@^1.0.0 (1.0.1)
+ok   Installed npm:d3-time-format@^2.0.0 (2.0.2)
+ok   Installed npm:d3-color@^1.0.0 (1.0.1)
+ok   Installed npm:d3-time@^1.0.0 (1.0.2)
+ok   Installed npm:d3-array@^1.0.0 (1.0.1)
+ok   Installed d3-scale to npm:d3-scale@^1.0.3 (1.0.3)
+     Install tree has no forks.
+
+ok   Install complete.
